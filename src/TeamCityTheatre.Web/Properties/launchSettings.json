@@ -5,16 +5,20 @@
     "iis": {
       "applicationUrl": "http://localhost/teamcitytheatre",
       "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://localhost:59235/",
+      "sslPort": 0
     }
   },
   "profiles": {
     "IIS": {
-      "commandName": "IIS",
+      "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "http://localhost/teamcitytheatre",
+      "launchUrl": "http://localhost:59235",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "ASPNETCORE_URLS": "http://*:5862"
+        "ASPNETCORE_URLS": "http://*:5862",
+        "ASPNETCORE_ENVIRONMENT": "Development"
       }
     }
   }

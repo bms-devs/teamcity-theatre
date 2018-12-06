@@ -269,6 +269,7 @@ tools/
 
 /.dotnet
 /src/.vs
+/src/.vscode
 /src/TeamCityTheatre.Web/appsettings.secrets.json
 /src/TeamCityTheatre.Web/data
 /src/TeamCityTheatre.Web/logs

@@ -17,9 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="appsettings.json" CopyToPublishDirectory="true" />
-    <Content Include="wwwroot\**\*" CopyToPublishDirectory="true" />
-    <Content Include="views\**\*.cshtml" CopyToPublishDirectory="true" />
+    <Content Include="appsettings.json" CopyToPublishDirectory="always" />
+    <Content Include="wwwroot\**\*" CopyToPublishDirectory="always" />
+    <Content Include="Views\**\*.cshtml" CopyToPublishDirectory="always" />
   </ItemGroup>
 
   <ItemGroup>
